@@ -1,0 +1,14 @@
+# for koyeb setup   ######################
+
+# Update package list first
+sudo apt update
+
+# Then install the packages with correct names
+sudo apt install -y libgl1-mesa-glx libglib2.0-0 ffmpeg libsm6 libxext6
+
+# Install Python and pip if missing
+sudo apt install -y python3 python3-pip
+ 
+# Then use python3 and pip3 commands
+pip3 install -r requirements.txt
+python3 basicsr/setup.py develop
