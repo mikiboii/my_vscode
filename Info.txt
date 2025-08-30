@@ -1,6 +1,8 @@
 # for koyeb setup   ######################
 
 # Docker Hub Image : codercom/code-server
+# port 8443
+
 
 # Update package list first
 sudo apt update
